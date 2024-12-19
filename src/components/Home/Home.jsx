@@ -88,6 +88,11 @@ const Home = () => {
   </div>
 </div>
 
+<video className="h-hakf w-half rounded-lg py-20"ontrols autoPlay muted>
+      <source src="https://docs.material-tailwind.com/demo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
     </div>
   );
 };
